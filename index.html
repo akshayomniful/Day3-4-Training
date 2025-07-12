@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Utility Library</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header><h2>JavaScript Utility Library</h2></header>
+
+      <section class="demo-section">
+        <h2>Debounce Function</h2>
+        <div class="demo-container">
+          <input
+            type="text"
+            id="debounce-input"
+            placeholder="Type something..."
+          />
+          <p>Debounced output: <span id="debounce-output">-</span></p>
+          <p class="description">
+            The input value will update 500ms after you stop typing.
+          </p>
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <h2>Deep Clone</h2>
+        <div class="demo-container">
+          <button id="clone-btn">Clone Object</button>
+          <div class="output-container">
+            <div>
+              <h3>Original:</h3>
+              <pre id="original-object"></pre>
+            </div>
+            <div>
+              <h3>Cloned:</h3>
+              <pre id="cloned-object"></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <h2>Promise Chain</h2>
+        <div class="demo-container">
+          <button id="promise-btn">Run Sequential API Calls</button>
+          <div class="output-container">
+            <pre id="promise-output"></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <h2>Event Emitter</h2>
+        <div class="demo-container">
+          <button id="emit-event1">Emit Event 1</button>
+          <button id="emit-event2">Emit Event 2</button>
+          <div class="output-container">
+            <pre id="event-output"></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <h2>Throttle Function</h2>
+        <div class="demo-container">
+          <div id="scroll-area">
+            <p>Scroll in this area to test throttling</p>
+            <div id="scroll-content"></div>
+          </div>
+          <div class="output-container">
+            <p>Scroll events: <span id="scroll-count">0</span></p>
+            <p>Throttled events: <span id="throttled-count">0</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <h2>Curry Function</h2>
+        <div class="demo-container">
+          <button id="curry-btn">Test Curry</button>
+          <div class="output-container">
+            <pre id="curry-output"></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <h2>Array Methods</h2>
+        <div class="demo-container">
+          <button id="array-btn">Test Custom Array Methods</button>
+          <div class="output-container">
+            <pre id="array-output"></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <h2>Local Storage Manager</h2>
+        <div class="demo-container">
+          <input type="text" id="storage-key" placeholder="Key - fruit " />
+          <input type="text" id="storage-value" placeholder="Value - apple " />
+          <div class="button-group">
+            <button id="storage-set">Set</button>
+            <button id="storage-get">Get</button>
+            <button id="storage-remove">Remove</button>
+            <button id="storage-clear">Clear All</button>
+          </div>
+          <div class="output-container">
+            <pre id="storage-output"></pre>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>JavaScript Utility Library Functions</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

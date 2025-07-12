@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+header {
+  background-color: #090040;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  max-width: 1200px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.demo-section {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.demo-section h2 {
+  background-color: #471396;
+  color: white;
+  padding: 15px;
+  margin: 0;
+}
+
+.demo-container {
+  padding: 20px;
+}
+
+.output-container {
+  margin-top: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+pre {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+button {
+  background-color: #471396;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  background-color: rgb(137, 10, 233);
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+#scroll-area {
+  height: 150px;
+  overflow-y: scroll;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#scroll-content {
+  height: 500px;
+  background: linear-gradient(to bottom, #f9f9f9, #ccc);
+}
+
+.description {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .demo-container {
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
